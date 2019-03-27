@@ -62,6 +62,51 @@
       <div class="outer">
         <section id="main">
   
+    <article id="post-读书笔记-React进阶之路-1" class="article article-type-post" itemscope="" itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2019/03/27/读书笔记-React进阶之路-1/" class="article-date">
+  <time datetime="2019-03-27T08:53:55.000Z" itemprop="datePublished">2019-03-27</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2019/03/27/读书笔记-React进阶之路-1/">[读书笔记]React进阶之路(1)</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h1 id="1-1-React简介"><a href="#1-1-React简介" class="headerlink" title="1.1 React简介"></a>1.1 React简介</h1><h2 id="React的特点"><a href="#React的特点" class="headerlink" title="React的特点"></a>React的特点</h2><h3 id="声明式的视图层"><a href="#声明式的视图层" class="headerlink" title="声明式的视图层"></a>声明式的视图层</h3><p>React推荐使用JSX来声明视图层，可在视图层中任意使用状态数据。<br>相比与一般HTML模板区别在于：<br>JSX的变量作用域（scope）与js的为同一个<br>JSX可以内嵌编程语言（简单的表达式则都可以）</p>
+<h3 id="简单的更新流程"><a href="#简单的更新流程" class="headerlink" title="简单的更新流程"></a>简单的更新流程</h3><p>React会自动根据UI状态渲染出最新内容，且状态到UI的数据流单向流动也让组件的更新流程更加清晰。<br>区别于Angular的双向绑定（界面的操作能实时反映到数据，数据的变更能实时展现到界面），React在界面发生变化时按照配置规则更新相应数据，然后再根据配置规则更新页面状态。</p>
+<h3 id="灵活的渲染实现"><a href="#灵活的渲染实现" class="headerlink" title="灵活的渲染实现"></a>灵活的渲染实现</h3><p>React不直接渲染视图至终端，而是先渲染成虚拟DOM。<br>虚拟DOM：<br>一种在内存中描述DOM树状态的数据结构。当状态发生变化时，React重新渲染虚拟DOM，比较计算之后再给真实DOM做修改。</p>
+<h3 id="高效的DOM操作"><a href="#高效的DOM操作" class="headerlink" title="高效的DOM操作"></a>高效的DOM操作</h3><p>基于虚拟DOM操作，React减少了对真实DOM的渲染次数和改变内容，提升了效率。</p>
+<h1 id="1-2-ECMAScript-6简介"><a href="#1-2-ECMAScript-6简介" class="headerlink" title="1.2 ECMAScript 6简介"></a>1.2 ECMAScript 6简介</h1><h2 id="现有标准"><a href="#现有标准" class="headerlink" title="现有标准"></a>现有标准</h2><p>ECMAScript 6作为新一代标准，而日常编码过程中使用的无需额外编译的js标准其实也叫做ECMAScript 3（定稿在1999——2000年）</p>
+<h2 id="新增内容"><a href="#新增内容" class="headerlink" title="新增内容"></a>新增内容</h2><p>除了书中提及的“let、const”、“箭头函数”、“模板字符串”、“结构赋值”、“rest参数”、“扩展运算符”、“class”(在React 16.8版本的proposal中已推荐function写法)和“import、export”外，还丰富了一些内建类型的API，如Array类型增加了find和findIndex方法</p>
+<h1 id="1-3-开发环境和工具简介"><a href="#1-3-开发环境和工具简介" class="headerlink" title="1.3 开发环境和工具简介"></a>1.3 开发环境和工具简介</h1><h2 id="定义补充"><a href="#定义补充" class="headerlink" title="定义补充"></a>定义补充</h2><p>书中将Node.js定义为“一个JavaScript运行时”，原官方说法中的“run-time”可以更进一步解释为运行环境，突出node.js不是一个语言也不是一个框架，是一个用来运行js的环境</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://www.C4Nstudio.com/2019/03/27/读书笔记-React进阶之路-1/" data-id="cjtqz40nv0000hdj1lvh3fdqj" class="article-share-link">Share</a>
+      
+      
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/读书笔记/">读书笔记</a></li></ul>
+
+    </footer>
+  </div>
+  
+</article>
+
+
+  
     <article id="post-读书笔记-编写可维护的JavaScript-1" class="article article-type-post" itemscope="" itemprop="blogPost">
   <div class="article-meta">
     <a href="/2019/01/16/读书笔记-编写可维护的JavaScript-1/" class="article-date">
@@ -171,7 +216,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://www.C4Nstudio.com/2019/01/16/读书笔记-编写可维护的JavaScript-1/" data-id="cjr013tix0001ygj15vbvq358" class="article-share-link">Share</a>
+      <a data-url="http://www.C4Nstudio.com/2019/01/16/读书笔记-编写可维护的JavaScript-1/" data-id="cjtqz40o90003hdj1nxrziicf" class="article-share-link">Share</a>
       
       
   <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/读书笔记/">读书笔记</a></li></ul>
@@ -218,7 +263,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://www.C4Nstudio.com/2019/01/13/hello-world/" data-id="cjr013tiq0000ygj1ibjtmvdp" class="article-share-link">Share</a>
+      <a data-url="http://www.C4Nstudio.com/2019/01/13/hello-world/" data-id="cjtqz40o30001hdj1weembj4l" class="article-share-link">Share</a>
       
       
     </footer>
@@ -260,7 +305,7 @@
   <div class="widget-wrap">
     <h3 class="widget-title">归档</h3>
     <div class="widget">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/01/">一月 2019</a></li></ul>
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/03/">三月 2019</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/01/">一月 2019</a></li></ul>
     </div>
   </div>
 
@@ -271,6 +316,10 @@
     <h3 class="widget-title">最新文章</h3>
     <div class="widget">
       <ul>
+        
+          <li>
+            <a href="/2019/03/27/读书笔记-React进阶之路-1/">[读书笔记]React进阶之路(1)</a>
+          </li>
         
           <li>
             <a href="/2019/01/16/读书笔记-编写可维护的JavaScript-1/">[读书笔记]编写可维护的JavaScript(1)</a>
